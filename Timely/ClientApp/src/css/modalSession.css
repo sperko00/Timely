@@ -1,0 +1,54 @@
+.modal-session-header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-session-title
+{
+    font-size : 30px;
+}
+.modal-session-subtitle
+{
+   padding: 20px;
+   text-align: center;
+}
+.add-session-tags
+{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.btn-add-tag
+{
+    font-weight: 650;
+    margin-top: 4px;
+}
+.added-tag
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 650;
+    border-radius: 0.25rem;
+    border: 1px solid rgb(0, 13, 133);
+    padding: .375rem .75rem;
+    margin-top: 4px;
+    margin-left: 4px;
+    color:rgb(0, 13, 133);
+}
+
+.added-tag-remove
+{
+    margin-left: 10px;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+.added-tag-remove :hover
+{
+    transform: scale(1.05);
+    color: red;
+}

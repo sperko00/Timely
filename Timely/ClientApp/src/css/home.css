@@ -1,0 +1,110 @@
+body
+{
+    padding: 0;max-width: 1200px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+}
+.home-wrap
+{
+    min-height: 100vh;
+    padding: 50px;
+    
+   
+}
+.heading
+{
+    color:#FFF;
+    font-weight: 700;
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.separator
+{
+   border-bottom:1px solid rgb(207, 207, 207);
+}
+
+.project-dashboard
+{
+    padding-top: 20px;
+}
+.project-grid
+{
+    padding-top: 20px;
+}
+.project-container
+{
+    padding: 10px;
+}
+.project
+{
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-name{
+    padding-bottom: 10px;
+}
+.project-controller
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.project-details
+{
+    cursor: pointer;
+    color:green;
+    
+}
+.controller-play
+{
+    color: rgb(7, 168, 7);
+    padding: 20.5px 0;
+    
+}
+.play-icon
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+.grayed
+{
+    color: rgb(155, 155, 155);
+}
+.controller-working
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(218, 19, 19);
+    border-bottom: none;
+    border-radius: 8px;
+    
+}
+.working-time
+{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(7, 168, 7);
+}
+.stop-tag{
+    background-color: rgb(218, 19, 19);
+    color: white;
+    border: 2px solid rgb(218, 19, 19);
+    border-radius: 6px;
+    padding:0px 35px;
+    cursor: pointer;
+
+}
+.modal-container {
+    position: relative;
+  }
+  .modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+  }
+

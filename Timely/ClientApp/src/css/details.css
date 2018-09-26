@@ -1,0 +1,269 @@
+.details-wrap{
+    min-height: 100vh;
+    
+}
+.hidden
+{
+    display: none;
+}
+.badge
+{
+    margin-left: 10px;
+}
+.active-note
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.details-project-name
+{
+    color:#FFF;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.total-time
+{
+    display: flex;
+    justify-content: flex-start;
+    color: #FFF;
+    font-weight: 300;
+    margin-top:20px;
+    
+}
+.controls{
+    display: flex;
+    align-items: center;
+}
+.no-session-note
+{
+    color: white;
+    font-weight: 300;
+    font-size: 25px; 
+}
+
+.clickable:hover
+{
+    cursor: pointer;
+    font-size: 33px;
+}
+.report-tags-wrap{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.chart
+{
+    margin: auto;
+    max-width: 400px;
+    min-height: 200px;
+}
+.tag-badge
+{
+    margin-left: 5px;
+}
+
+
+
+
+.edit-icon
+{
+    font-size: 30px;
+    padding-left: 20px;
+    color:rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+.search{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #FFF;
+    
+}
+
+.details-session-container
+{
+    padding: 40px 0px;
+}
+.session:hover
+{
+    transform: scale(1.01);
+}
+.session-wrap
+{
+    padding: 15px;
+    background: #565656;
+    color: white;
+    border-radius: 0.25rem;
+    margin-top:5px;
+    cursor: pointer;
+}
+.session-description{
+   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:white;
+    font-style: italic;
+}
+.session-tags{
+    white-space: nowrap;
+    overflow: hidden;
+    padding:3px 15px;
+    text-overflow: ellipsis;
+
+}
+.session-tag
+{
+    border-radius: 0.25rem;
+    border: 1px solid greenyellow;
+    padding: 2px 4px;
+    margin-right: 4px;
+    color:greenyellow;
+}
+.tag-message{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: greenyellow;
+}
+
+.session-duration
+{
+    display: inline-block;
+    font-weight: 600;
+}
+.session-date
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media only screen and (min-width : 50px)
+{
+    .preview-time{
+        text-align: center;
+    }
+    .preview-date
+    {
+        text-align: center;
+    }
+    .preview-description
+    {
+        text-align: center;
+        font-style: italic;
+    }
+    .control-btn
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .search{
+        text-align:center;
+    }
+    .control-btn-active{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .details-wrap{
+        padding: 50px 20px;
+    }
+    .session-time
+    {
+       
+    }
+    .session-description{
+       
+        margin-top: 4px;
+    }
+    .session-tags{
+       
+        margin-top: 4px;
+    }
+
+    
+}
+@media only screen and (min-width : 576px)
+{
+    .control-btn-active{
+       margin-bottom: 0;
+    }
+    .preview-time{
+        text-align: end;
+    }
+    .preview-date{
+        text-align: start;
+    }
+    .col-search
+    {
+        margin-top: 0;
+    }
+    .details-heading
+    {
+        color:#FFF;
+        font-weight: 400;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .control-btn
+    {
+        width: 49%;
+        margin-bottom: 0px;
+    }
+    .control-btn:first-of-type{
+        margin-right: 2%;
+    }
+    .control-btns
+    {
+        margin-bottom: 10px;
+    }
+    .session-description{
+        
+    }
+
+}
+@media only screen and (min-width : 768px)
+{
+    .control-btn-active{
+        width: 70%;
+    }
+    .control-btns{
+        margin-bottom: 0;
+    }
+    .search{
+        text-align: start;
+    }
+    
+}
+
+
+
+
+.report-tags-wrap
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.report-tag
+{
+    padding: 6px;
+    display: flex;
+    color:white;
+    align-items: center;
+}
+.report-tag-name
+{
+    border: 1px solid #eb4c02;
+    color:#eb4c02; 
+    border-radius : 0.25rem;
+    padding: 3px 15px;
+    text-align: center;
+}
+
+.report-chart-wrap
+{
+    
+}

@@ -1,0 +1,42 @@
+.addtag-header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addtag-title{
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+.tag-label-input{
+    width: 70%;
+    text-align: center;
+}
+
+.tag-name-container
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.tag-name-label
+{
+    padding-bottom:  10px;
+}
+.tag-slider-container
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.slider-labels
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
